@@ -1,10 +1,10 @@
-# 🌤️ Weather Dashboard
-
-A modern and responsive weather dashboard built using HTML, CSS, and JavaScript.
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![API](https://img.shields.io/badge/API-OpenMeteo-green)
+# 🌤️ Weather Dashboard
+
+A modern and responsive weather dashboard built using HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
