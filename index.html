@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Search city..."
+        >
+
+        <button id="searchBtn">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <button id="locationBtn">
+        📍 Use My Location
+    </button>
+
+    <div class="weather-card">
+
+        <div class="weather-left">
+
+            <h2 id="city">Mumbai</h2>
+
+            <h1 id="temperature">--°C</h1>
+
+            <p id="date">Loading...</p>
+
+            <p id="condition">Sunny</p>
+
+        </div>
+
+        <div class="weather-right">
+
+            <img
+                id="weatherIcon"
+                src=""
+                alt="Weather Icon"
+            >
+
+        </div>
+
+    </div>
+
+    <div class="details-container">
+
+        <div class="detail-card">
+            <h3>💧 Humidity</h3>
+            <p id="humidity">--</p>
+        </div>
+
+        <div class="detail-card">
+            <h3>🌬 Wind</h3>
+            <p id="wind">--</p>
+        </div>
+
+        <div class="detail-card">
+            <h3>👁 Visibility</h3>
+            <p id="visibility">--</p>
+        </div>
+
+        <div class="detail-card">
+            <h3>📊 Pressure</h3>
+            <p id="pressure">--</p>
+        </div>
+
+    </div>
+
+    <div class="forecast-section">
+
+        <h2>5-Day Forecast</h2>
+
+        <div
+            id="forecastContainer"
+            class="forecast-container">
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
